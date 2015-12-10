@@ -1,0 +1,49 @@
+#content {
+	width: 700px;
+	margin: 0 auto;
+}
+#h3 {
+    margin: 0;
+    padding: 3px;
+}
+a {
+	cursor: pointer;
+}
+.bold {
+	font-weight: bold;
+}
+.userAccount {
+	margin: 20px 0 5px 0;
+	font-size: 17px;
+}
+.menu {
+	margin-top: 20px;
+}
+#currentUserGifts , #sendGift, #friendsInvite {
+	width: 400px;
+	height: 500px;
+    overflow: auto;
+	overflow-x: hidden;
+	-ms-overflow-x: hidden;
+}
+#sendGift, #friendsInvite {
+	display: none;
+}
+#currentUserGifts img {
+	position: relative;
+	top: -2px;
+}
+.giftControl {
+	font-size: 9px;
+	text-align: right;
+}
+.giftControl  a {
+	cursor: pointer;
+}
+.userGiftResponse {
+	text-align: center;
+}
+.giftType {
+	width: 200px; 
+	margin: 0 auto;
+}
