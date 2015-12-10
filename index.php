@@ -83,12 +83,12 @@ $userData = $userAction->controller($userInfo, $friends);
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta name="author" content="bcakir" />
     <link rel="stylesheet" type="text/css" href="assets/ext/bootstrap/css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css?v=1.281" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css?v=1.3" />
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/ext/bootstrap/js/bootstrap.min.js"></script>
 	<div id="fb-root"></div>
 	<script src="https://connect.facebook.net/en_US/all.js"></script>
-	<script type="text/javascript" src="assets/js/gift.js?v=1.281"></script>
+	<script type="text/javascript" src="assets/js/gift.js?v=1.3"></script>
 	<script>FB.init({appId: '<?php echo APP_ID; ?>', status: true, cookie: true, xfbml: true});</script>
     <title>Facebook Gift App</title>
 </head>
