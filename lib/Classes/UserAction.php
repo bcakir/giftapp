@@ -50,15 +50,16 @@ class UserAction
 	/*
 	 * Tarihin öncesini bulur
 	 * @param int $days tarihin x gün öncesi
-	 * @return array
+	 * @return date
 	*/
 	private function getDate($days) {
 		return date('Y-m-d H:i:s', strtotime($days . ' days'));
 	}
 	
 	/*
-	 * Tarihin öncesini bulur
-	 * @param int $days tarihin x gün öncesi
+	 * Hediye gönderilmemiş arkadaşları getirir
+	 * @param array $friends facebook arkadaşlar idleri
+	 * @param array $sent hediye gönderilmiş arkadaş idleri
 	 * @return array
 	*/
 	private function getUnSentFriends($friends, $sent) {
