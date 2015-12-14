@@ -68,7 +68,7 @@ class GiftActions {
 	/*
 	 * Tarihin öncesini bulur
 	 * @param int $days tarihin x gün öncesi
-	 * @return array
+	 * @return date
 	*/
 	private function getDate($days) {
 		return date('Y-m-d H:i:s', strtotime($days . ' days'));
